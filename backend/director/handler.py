@@ -8,6 +8,7 @@ from director.agents.pricing import PricingAgent
 from director.agents.upload import UploadAgent
 from director.agents.search import SearchAgent
 from director.agents.prompt_clip import PromptClipAgent
+from director.agents.hook_template import HookTemplateAgent
 from director.agents.index import IndexAgent
 from director.agents.brandkit import BrandkitAgent
 from director.agents.profanity_remover import ProfanityRemoverAgent
@@ -49,6 +50,7 @@ class ChatHandler:
             UploadAgent,
             SearchAgent,
             PromptClipAgent,
+            HookTemplateAgent,
             IndexAgent,
             BrandkitAgent,
             ProfanityRemoverAgent,
